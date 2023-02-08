@@ -1,0 +1,5 @@
+//the async keyword is used before the function to represent that the function is asynchronous.
+
+//The await keyword is used inside the async function to wait for the asynchronous operation.
+
+//The use of await pauses the async function until the promise returns a result (resolve or reject) value. 
