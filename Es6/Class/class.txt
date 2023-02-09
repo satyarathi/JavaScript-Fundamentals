@@ -1,0 +1,4 @@
+Previously, classes never existed in JavaScript. Classes are introduced in ES6 which looks similar to classes in other 
+object-oriented languages, such as C++, Java, PHP, etc. But, they do not work exactly the same way.
+ ES6 classes make it simpler to create objects, implement inheritance by using the "extends" keyword and 
+ also reuse the code efficiently.

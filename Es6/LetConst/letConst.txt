@@ -1,0 +1,4 @@
+The keyword "let" enables the users to define variables and on the other hand, "const" enables the users to define constants. 
+Variables were previously declared using "var" which had function scope and were hoisted to the top.
+ It means that a variable can be used before declaration. But, the "let" variables and constants have block scope which
+ is surrounded by curly-braces "{}" and cannot be used before declaration.

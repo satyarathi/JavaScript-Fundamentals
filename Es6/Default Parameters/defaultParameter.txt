@@ -1,0 +1,1 @@
+In ES6, users can provide the default values right in the signature of the functions. But, in ES5, OR operator had to be used.
