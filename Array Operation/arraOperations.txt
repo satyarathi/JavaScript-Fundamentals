@@ -1,0 +1,12 @@
+//In javascript ,array is used to store multiple values or multiple datatypes in one variable .
+
+//in JS, we have an array class, and array are the prototypes of this class.
+
+//pop- removing the last array element and returns the value that was "popped out".
+
+//push- adding elements at the last and returns the new array length.
+
+//shift - removing first array element and returns the value that was "shifted out".
+
+// unshift - adding the element at the beginning and returns the new array length.
+
