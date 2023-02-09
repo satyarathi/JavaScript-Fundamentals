@@ -1,0 +1,1 @@
+ES6 also provides Multi-line Strings. Users can create multi-line strings by using back-ticks(`).

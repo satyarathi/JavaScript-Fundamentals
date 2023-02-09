@@ -1,0 +1,1 @@
+ES6 provides enhanced object literals which make it easy to quickly create objects with properties inside the curly braces.

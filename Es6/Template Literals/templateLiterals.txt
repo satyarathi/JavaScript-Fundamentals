@@ -1,0 +1,2 @@
+ES6 introduces very simple string templates along with placeholders for the variables. 
+The syntax for using the string template is ${PARAMETER} and is used inside of the back-ticked string.

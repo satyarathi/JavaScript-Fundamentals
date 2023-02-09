@@ -1,0 +1,3 @@
+ES6 introduced a new feature called modules, in which each module is represented by a separate ".js" file.
+"import" or "export" statement is used in a module to import or export variables, functions, classes or any 
+ other component from/to different files and modules.

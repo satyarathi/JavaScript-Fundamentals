@@ -1,0 +1,1 @@
+let name = `My name is ${firstName} ${lastName}`

@@ -1,0 +1,2 @@
+ES6 provides a feature known as Arrow Functions. 
+It provides a more concise syntax for writing function expressions by removing the "function" and "return" keywords.
