@@ -1,0 +1,2 @@
+ES7 introduces a new mathematical operator called exponentiation operator.
+ This operator is similar to using Math.pow() method. Exponentiation operator is represented by a double asterisk **.
