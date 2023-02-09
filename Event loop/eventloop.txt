@@ -1,0 +1,18 @@
+//The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread,
+ but using a few smart data structures,it gives us the illusion of multi-threading. 
+
+ //The call stack is responsible for keeping track of all the operations in line to be executed.
+  Whenever a function is finished, it is popped from the stack.
+
+  //The event queue is responsible for sending new functions to the stack for processing. 
+  It follows the queue data structure to maintain the correct sequence in which all operations should be sent for execution.
+
+  //Here we have the main function which has 2 console.log commands logging ‘A’ and ‘C’ to the console. Sandwiched between them is a setTimeout call which logs ‘B’ to the console with 0ms wait time.
+
+
+Inner working during the execution
+The call to the main function is first pushed into the stack (as a frame). Then the browser pushes the first statement in the main function into the stack which is console.log(‘A’). This statement is executed and upon completion that frame is popped out. Alphabet A is displayed in the console.
+The next statement (setTimeout() with callback exec() and 0ms wait time) is pushed into the call stack and execution starts. setTimeout function uses a Browser API to delay a callback to the provided function. The frame (with setTimeout) is then popped out once the handover to browser is complete (for the timer).
+console.log(‘C’) is pushed to the stack while the timer runs in the browser for the callback to the exec() function. In this particular case, as the delay provided was 0ms, the callback will be added to the message queue as soon as the browser receives it (ideally).
+After the execution of the last statement in the main function, the main() frame is popped out of the call stack, thereby making it empty. For the browser to push any message from the queue to the call stack, the call stack has to be empty first. That is why even though the delay provided in the setTimeout() was 0 seconds, the callback to exec() has to wait till the execution of all the frames in the call stack is complete.
+Now the callback exec() is pushed into the call stack and executed. The alphabet C is display on the console. This is the event loop of javascript.
