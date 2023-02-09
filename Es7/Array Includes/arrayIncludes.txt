@@ -1,0 +1,2 @@
+The Array.includes() method introduced in ES7 helps to check if an element is available in an array. 
+Prior to ES7, the indexof() method of the Array class could be used to verify if a value exists in an array . 
