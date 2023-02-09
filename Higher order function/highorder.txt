@@ -1,0 +1,6 @@
+This ability of functions to act as first-class functions is what powers higher order functions in JavaScript.
+
+//A function which takes another function as an argument or returns a function is known as a higher order function.
+
+//Passing a function as an argument to another function
+//Returning a function from another function
