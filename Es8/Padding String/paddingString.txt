@@ -1,0 +1,2 @@
+ES8 introduces two string handling functions for padding a string. 
+These functions can be used to add space or any desired set of characters to the beginning and end of a string value.
