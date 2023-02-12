@@ -1,0 +1,3 @@
+Object.getOwnPropertyDescriptors()
+It returns all own (non-inherited) property descriptors of an object. The attributes of the return object can be: 
+value, writable, get, set, configurable and enumerable.

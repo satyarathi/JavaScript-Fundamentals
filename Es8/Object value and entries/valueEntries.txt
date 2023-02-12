@@ -1,0 +1,5 @@
+Object.values()
+Access all the values of our object without any complication.
+
+Object.entries
+Turn your object attribute in an array of attributes.
